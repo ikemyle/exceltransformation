@@ -1,0 +1,143 @@
+{
+  "MapRules": [
+    {
+      "DbName": "OrderID",
+      "DisplayName": "Order Id",
+      "DataType": "int",
+      "Format": "none",
+      "Rules": []
+    },
+    {
+      "DbName": "CustomerID",
+      "DisplayName": "Customer Number",
+      "DataType": "string",
+      "Format": "none",
+      "Rules": []
+    },
+    {
+      "DbName": "EmployeeID",
+      "DisplayName": "Employee Number",
+      "DataType": "decimal",
+      "Format": "none",
+      "Rules": []
+    },
+    {
+      "DbName": "OrderDate",
+      "DisplayName": "Order Date",
+      "DataType": "datetime",
+      "Format": "MM/dd/yyyy",
+      "Rules": []
+    },
+    {
+      "DbName": "RequiredDate",
+      "DisplayName": "Required Date",
+      "DataType": "date",
+      "Format": "MM/dd/yyyy",
+      "Rules": []
+    },
+    {
+      "DbName": "ShippedDate",
+      "DisplayName": "Shipping Date",
+      "DataType": "date",
+      "Format": "MM/dd/yyyy",
+      "Rules": [
+        {
+          "Val": "OrderDate",
+          "AddToValue": "10",
+          "Unit": "d",
+          "Operand": "LT",
+          "Action": { "Backgorund": "yellow" }
+        },
+        {
+          "Val": "OrderDate",
+          "AddToValue": "15",
+          "Unit": "d",
+          "Operand": "LT",
+          "Action": {
+            "Backgorund": "green",
+            "ForeColor": "white",
+            "FontBold": "true"
+          }
+        }
+      ]
+    },
+    {
+      "DbName": "ShipVia",
+      "DisplayName": "Ship Via",
+      "DataType": "int",
+      "Format": "none",
+      "Rules": []
+    },
+    {
+      "DbName": "Freight",
+      "DisplayName": "Package Freight",
+      "DataType": "decimal",
+      "Format": "none",
+      "Rules": [
+        {
+          "Val": "Freight",
+          "AddToValue": "null",
+          "Unit": "null",
+          "Operand": "GT",
+          "Compare": "50",
+          "Action": {
+            "Backgorund": "red",
+            "ForeColor": "white",
+            "FontBold": "true"
+          }
+        }
+      ]
+    },
+    {
+      "DbName": "ShipName",
+      "DisplayName": "Shipping Name",
+      "DataType": "string",
+      "Format": "none",
+      "Rules": []
+    },
+    {
+      "DbName": "ShipAddress",
+      "DisplayName": "Shipping Address",
+      "DataType": "string",
+      "Format": "none",
+      "Rules": []
+    },
+    {
+      "DbName": "ShipCity",
+      "DisplayName": "Shipping City",
+      "DataType": "string",
+      "Format": "none",
+      "Rules": []
+    },
+    {
+      "DbName": "ShipRegion",
+      "DisplayName": "Shipping Region",
+      "DataType": "string",
+      "Format": "none",
+      "Rules": []
+    },
+    {
+      "DbName": "ShipPostalCode",
+      "DisplayName": "Shipping PostCode",
+      "DataType": "string",
+      "Format": "none",
+      "Rules": []
+    },
+    {
+      "DbName": "ShipCountry",
+      "DisplayName": "Shipping Country",
+      "DataType": "string",
+      "Format": "none",
+      "Rules": [
+        {
+          "Val": "ShipCountry",
+          "AddToValue": "null",
+          "Unit": "null",
+          "Operand": "EQ",
+          "Compare": "USA",
+          "Action": { "Backgorund": "yellow" }
+        }
+      ]
+    }
+  ]
+}

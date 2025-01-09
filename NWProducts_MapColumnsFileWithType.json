@@ -1,0 +1,102 @@
+{
+  "MapRules": [
+    {
+      "DbName": "ProductID",
+      "DisplayName": "Product Id",
+      "DataType": "int",
+      "Format": "none",
+      "Rules": []
+    },
+    {
+      "DbName": "ProductName",
+      "DisplayName": "Product Name",
+      "DataType": "string",
+      "Format": "none",
+      "Rules": []
+    },
+    {
+      "DbName": "SupplierID",
+      "DisplayName": "Supplier Number",
+      "DataType": "decimal",
+      "Format": "none",
+      "Rules": []
+    },
+    {
+      "DbName": "CompanyName",
+      "DisplayName": "Supplier Company",
+      "DataType": "string",
+      "Format": "none",
+      "Rules": []
+    },
+    {
+      "DbName": "SupplierCity",
+      "DisplayName": "Supplier City",
+      "DataType": "string",
+      "Format": "none",
+      "Rules": []
+    },
+    {
+      "DbName": "SupplierContact",
+      "DisplayName": "Supplier Contact",
+      "DataType": "string",
+      "Format": "none",
+      "Rules": []
+    },
+    {
+      "DbName": "SupplierCountry",
+      "DisplayName": "Supplier Country",
+      "DataType": "string",
+      "Format": "none",
+      "Rules": []
+    },
+    {
+      "DbName": "CategoryName",
+      "DisplayName": "Product Category",
+      "DataType": "string",
+      "Format": "none",
+      "Rules": []
+    },
+    {
+      "DbName": "QuantityPerUnit",
+      "DisplayName": "Quantity Per Unit",
+      "DataType": "string",
+      "Format": "none",
+      "Rules": []
+    },
+    {
+      "DbName": "UnitPrice",
+      "DisplayName": "Unit Price",
+      "DataType": "decimal",
+      "Format": "none",
+      "Rules": []
+    },
+    {
+      "DbName": "UnitsInStock",
+      "DisplayName": "Units in Stock",
+      "DataType": "int",
+      "Format": "none",
+      "Rules": []
+    },
+    {
+      "DbName": "UnitsOnOrder",
+      "DisplayName": "Units on Ordes",
+      "DataType": "int",
+      "Format": "none",
+      "Rules": []
+    },
+    {
+      "DbName": "ReorderLevel",
+      "DisplayName": "Reorder Level",
+      "DataType": "int",
+      "Format": "none",
+      "Rules": []
+    },
+    {
+      "DbName": "Discontinued",
+      "DisplayName": "Discontinued",
+      "DataType": "int",
+      "Format": "none",
+      "Rules": []
+    }
+  ] 
+}
