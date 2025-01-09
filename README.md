@@ -3,11 +3,13 @@ Features:
 -create excel from csv or datasets
 -conditional formating using predifined settings in json format
 -demonstration of Epplus excel fetures like formatting numbers and dates, formatting cells and colums, adding formulas, adding commenst and many more
+
 ![TransformationExcel](https://github.com/user-attachments/assets/2969cab5-9e33-4ece-a63a-a704e7845486)
 
-![ExcelExport](https://github.com/user-attachments/assets/fb618625-7a31-4c5e-b156-b98b5919c62f)
-![DataManagement](https://github.com/user-attachments/assets/2d56d779-3ad5-4baf-9427-8b163736e4bd)
-![ExcelTransform](https://github.com/user-attachments/assets/df86b58e-8baf-4eb4-b65e-b95ec18aea17)
+
+![DataManagement](https://github.com/user-attachments/assets/82d3dac2-7c1a-4083-9690-10d37ee26fd1)
+![ExcelExport](https://github.com/user-attachments/assets/7a6b6f8b-57b3-41c4-bc98-bd9ffe611272)
+![ExcelTransform](https://github.com/user-attachments/assets/8eef1b74-1941-452f-8af0-71d8d39813f6)
 
 
 ![ExcelFromGenerate](https://github.com/user-attachments/assets/0025a874-1486-4f43-adc4-1a0871c5d10c)
